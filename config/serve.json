@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://ogoodigital.sharepoint.com/sites/ModernCommunication/SitePages/Home.aspx",
+      "customActions": {
+        "a4a0fdcc-6c35-4463-b7e1-64189070a0a0": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top": "This is custom header",
+            "Bottom" : "This is custom footer"
+          }
+        }
+      }
+    },
+    "brandNew": {
+      "pageUrl": "https://ogoodigital.sharepoint.com/sites/ModernCommunication/SitePages/Home.aspx",
+      "customActions": {
+        "a4a0fdcc-6c35-4463-b7e1-64189070a0a0": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top": "This is custom header",
+            "Bottom" : "This is custom footer"
+          }
+        }
+      }
+    }
+  }
+}
