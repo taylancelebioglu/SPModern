@@ -1,7 +1,7 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
-    "name": "sp-online-examples-extensions-client-side-solution",
+    "name": "SP Online Extension Examples",
     "id": "b6f166d8-6f54-43df-b878-0a71dde10784",
     "version": "1.0.0.0",
     "includeClientSideAssets": true,
@@ -13,14 +13,13 @@
         "version": "1.0.0.0",
         "assets": {
           "elementManifests": [
-            "elements.xml",
-            "clientsideinstance.xml"
+            "elements.xml"
           ]
         }
       }
     ]
   },
   "paths": {
-    "zippedPackage": "solution/sp-online-examples-extensions.sppkg"
+    "zippedPackage": "solution/SP_online_extensions_examples.sppkg"
   }
 }

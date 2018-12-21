@@ -4,6 +4,6 @@
         Title="BrandNew"
         Location="ClientSideExtension.ApplicationCustomizer"
         ClientSideComponentId="a4a0fdcc-6c35-4463-b7e1-64189070a0a0"
-        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+        ClientSideComponentProperties="{&quot;Top&quot;:&quot;Top area of the page&quot;,&quot;Bottom&quot;:&quot;Bottom area in the page&quot;}">
     </CustomAction>
 </Elements>

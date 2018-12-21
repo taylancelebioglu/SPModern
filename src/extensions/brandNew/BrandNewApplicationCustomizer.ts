@@ -1,7 +1,6 @@
 import { override } from '@microsoft/decorators';
 import { Log } from '@microsoft/sp-core-library';
 import { BaseApplicationCustomizer, PlaceholderContent, PlaceholderName } from '@microsoft/sp-application-base';
-import { Dialog } from '@microsoft/sp-dialog';
 import styles from './AppCustomizer.module.scss';
 import { escape } from '@microsoft/sp-lodash-subset';
 import * as strings from 'BrandNewApplicationCustomizerStrings';
